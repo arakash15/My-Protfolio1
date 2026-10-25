@@ -1,6 +1,25 @@
+:root {
+    color-scheme: light;
+    --color-ink: #172033;
+    --color-muted: #596579;
+    --color-surface: #ffffff;
+    --color-page: #f4f6fb;
+    --color-accent: #5b4bdb;
+    --color-accent-dark: #4335b5;
+    --color-border: #dce1eb;
+    --content-width: 1100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    background: var(--color-page);
+    color: var(--color-ink);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 header {
