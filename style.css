@@ -46,8 +46,20 @@ nav a:hover {
 
 .hero {
     text-align: center;
-    padding: 100px 20px;
-    background: lightgray;
+    padding: 104px 24px;
+    background: linear-gradient(135deg, #e9e8ff, #f2f6ff);
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    line-height: 1.1;
+}
+
+.hero p {
+    margin: 16px 0 0;
+    color: var(--color-muted);
+    font-size: 1.25rem;
 }
 
 section {
